@@ -96,3 +96,30 @@ em Ribeirão Preto, oriente-o a:
 - Criar a ficha com o endereço comercial verdadeiro dele.
 - Vincular o site do portal como site oficial na ficha.
 - Solicitar avaliações de clientes atendidos para fortalecer a presença local.
+
+----------------------------------------------------------------------
+6. IMPLANTAÇÃO NA VERCEL VIA GITHUB (SEM ERROS)
+----------------------------------------------------------------------
+O arquivo `vercel.json` na raiz já está configurado para publicar o site
+de forma 100% automática e estática, sem necessidade de build:
+
+Como importar no painel da Vercel (vercel.com):
+1. Clique em "Add New..." > "Project".
+2. Importe o repositório do GitHub (`desentupidoraribeiraopreto`).
+3. O arquivo `vercel.json` instrui a Vercel automaticamente a:
+   - Framework Preset: Other (estático)
+   - Build Command: desabilitado (sem comandos de compilação)
+   - Output Directory: raiz (.)
+4. Basta clicar em "Deploy". A publicação ocorrerá em segundos.
+
+Caso o projeto já tenha sido criado na Vercel com erro anteriormente:
+- Vá em "Settings" > "General" no painel do projeto na Vercel.
+- Em "Build & Development Settings":
+  - Framework Preset: selecione "Other".
+  - Build Command: ative o botão "Override" e deixe o campo vazio.
+  - Output Directory: ative o botão "Override" e deixe vazio (ou informe ".").
+- Vá na aba "Deployments" e clique em "Redeploy".
+
+Nota: Caso a Vercel execute o comando de compilação (npm run build),
+os arquivos também estão espelhados em public/ e na configuração do Vite,
+gerando a pasta dist/ completa com todas as 13 páginas, scripts e fotos.

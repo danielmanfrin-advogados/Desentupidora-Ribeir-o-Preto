@@ -1,0 +1,42 @@
+# Desentupidora em Ribeirão Preto
+
+Portal de contato para intermediação de serviços de desentupimento e limpeza de tubulações em Ribeirão Preto, SP.
+
+## Sobre o Portal
+O portal Desentupidora em Ribeirão Preto conecta moradores, comerciantes e condomínios a prestadores de serviços de desentupimento locais. O atendimento inicial é realizado diretamente por WhatsApp ou ligação telefônica, sem intermediários no orçamento, permitindo que o cliente informe o bairro, o tipo de problema e envie fotos para avaliação prévia.
+
+## Serviços Oferecidos
+- [Desentupimento de pia e ralo](https://desentupidoraribeiraopreto.vercel.app/servicos/desentupimento-de-pia-e-ralo/): Atendimento para pia de cozinha, pia de banheiro, ralo de box e ralo de área de serviço com água parada ou escoando devagar.
+- [Desentupimento de vaso e esgoto](https://desentupidoraribeiraopreto.vercel.app/servicos/desentupimento-de-vaso-e-esgoto/): Para vaso sanitário entupido, retorno de esgoto e tubulação com mau cheiro. Atendimento residencial, comercial e condominial.
+- [Limpeza de caixa de gordura](https://desentupidoraribeiraopreto.vercel.app/servicos/limpeza-de-caixa-de-gordura/): Limpeza de caixa de gordura em casas, restaurantes e condomínios, para evitar refluxo e mau cheiro na cozinha.
+
+## Bairros Atendidos em Ribeirão Preto
+- [Centro](https://desentupidoraribeiraopreto.vercel.app/bairros/centro/)
+- [Jardim Botânico](https://desentupidoraribeiraopreto.vercel.app/bairros/jardim-botanico/)
+- [Nova Aliança](https://desentupidoraribeiraopreto.vercel.app/bairros/nova-alianca/)
+- [Vila Tibério](https://desentupidoraribeiraopreto.vercel.app/bairros/vila-tiberio/)
+- [Bonfim Paulista](https://desentupidoraribeiraopreto.vercel.app/bairros/bonfim-paulista/)
+- [Campos Elíseos](https://desentupidoraribeiraopreto.vercel.app/bairros/campos-eliseos/)
+
+## Páginas Institucionais
+- [Página Inicial](https://desentupidoraribeiraopreto.vercel.app/)
+- [Sobre o Portal](https://desentupidoraribeiraopreto.vercel.app/sobre/)
+- [Perguntas Frequentes](https://desentupidoraribeiraopreto.vercel.app/perguntas-frequentes/)
+- [Política de Privacidade](https://desentupidoraribeiraopreto.vercel.app/politica-de-privacidade/)
+
+## Perguntas Frequentes
+
+### O que fazer enquanto o desentupidor não chega?
+Evite usar a pia, o vaso ou o ralo afetado, para não aumentar o transbordamento. Não despeje produtos químicos fortes, porque podem atrapalhar o serviço.
+
+### Como pedir orçamento de desentupimento?
+Clique em WhatsApp ou Ligue agora e informe o bairro, o ponto entupido e há quanto tempo o problema existe. Uma foto ajuda na avaliação.
+
+### Desentupidora atende comércio e condomínio?
+Sim. Informe no atendimento se é casa, restaurante, loja ou condomínio, para o prestador levar o equipamento adequado.
+
+### Por que a caixa de gordura precisa de limpeza?
+A gordura acumulada endurece e reduz a passagem de água, o que causa mau cheiro e refluxo na cozinha. A frequência de limpeza depende do uso.
+
+### Quais formas de pagamento são aceitas?
+As formas de pagamento são combinadas no atendimento. Pergunte sobre Pix e cartão ao pedir o orçamento.
