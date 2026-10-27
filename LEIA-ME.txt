@@ -33,16 +33,21 @@ e Ligue agora em uma planilha do Google Sheets.
 Para configurar a sua própria planilha:
 1. Crie uma planilha nova no Google Drive (sheets.google.com).
 2. No menu superior da planilha, clique em: Extensões > Apps Script.
-3. Apague o código padrão que aparece no editor.
-4. Abra o arquivo `apps-script/Code.gs` deste projeto, copie todo o conteúdo e cole no editor do Apps Script.
-5. Clique no botão "Salvar" (ícone de disquete).
-6. No canto superior direito, clique em "Implantar" > "Nova implantação".
-7. Escolha o tipo: "App da Web".
+3. Apague todo o conteúdo que estiver no editor.
+4. Abra o arquivo `apps-script/Code.gs` deste projeto, copie TODO o arquivo (não esqueça das primeiras linhas com ABA e CABECALHO) e cole no editor do Apps Script.
+5. Clique no ícone de "Salvar" (disquete).
+6. TESTE DE AUTORIZAÇÃO (CRÍTICO):
+   - Na barra superior do Apps Script, selecione a função "testar" e clique em "Executar".
+   - O Google abrirá uma janela pedindo autorização: clique em "Revisar permissões", selecione sua conta, clique em "Avançado" e depois em "Acessar (não seguro)".
+   - Volte na planilha: a aba "Cliques" terá sido criada automaticamente com a primeira linha de teste gravada com sucesso!
+7. No canto superior direito, clique em "Implantar" > "Nova implantação".
+   - Tipo: selecione a engrenagem e escolha "App da Web".
    - Descrição: Registro de cliques
-   - Executar como: Eu
-   - Quem pode acessar: Qualquer pessoa (mesmo sem login do Google)
-8. Clique em "Implantar" e copie a URL gerada (termina com `/exec`).
-9. Abra o arquivo `config.js` do site e cole essa URL no campo `endpoint`.
+   - Executar como: "Eu" (seu e-mail da conta Google)
+   - Quem pode acessar: "Qualquer pessoa" (MUITO IMPORTANTE: se não marcar essa opção, os cliques do site não serão salvos)
+8. Clique em "Implantar" e copie a URL gerada (que termina com `/exec`).
+9. Abra o arquivo `config.js` do site e cole essa nova URL no campo `endpoint`.
+10. Salve `config.js` e envie para o GitHub. Pronto! Todos os cliques nos botões passarão a ser registrados imediatamente na sua planilha.
 
 Como atualizar o script no futuro:
 - Abra o Apps Script na planilha.
@@ -50,7 +55,7 @@ Como atualizar o script no futuro:
 - Clique em: Implantar > Gerenciar implantações.
 - Clique no ícone de lápis (Editar).
 - No campo Versão, selecione "Nova versão".
-- Clique em "Implantar". Pronto! Assim a URL /exec continua rigorosamente a mesma.
+- Clique em "Implantar". Assim a URL /exec continua rigorosamente a mesma.
 
 Como montar o relatório de leads por site e por botão:
 1. Na planilha, clique no menu superior: Inserir > Tabela dinâmica.
