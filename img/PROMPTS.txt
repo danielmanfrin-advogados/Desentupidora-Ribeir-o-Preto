@@ -1,0 +1,22 @@
+# Prompts utilizados para geração das imagens do portal Desentupidora em Ribeirão Preto
+# Estilo: foto realista de celular, iluminação natural, ambiente real de trabalho, sem estúdio, sem pessoas posando, sem marcas.
+
+[hero.jpg]
+Prompt: Natural candid smartphone photo taken from eye level of a drain cleaning cable machine and coiled metal snake pipe unclogging equipment resting near a residential floor drain and utility sink area. Natural daylight, real work setting, neutral realistic documentary style, no text, no visible faces, no logos.
+Dimensões: 1600x900 (16:9)
+
+[sobre.jpg]
+Prompt: Amateur smartphone style photo of plumbing inspection tools, rubber gloves, flashlights, and drain snake coils neatly organized in a tool tray next to residential pipes. Natural lighting, candid documentary feel, no logos, no text, no faces.
+Dimensões: 1000x750 (4:3)
+
+[desentupimento-de-pia-e-ralo.jpg]
+Prompt: Candid smartphone photo of a stainless steel kitchen sink and drain siphon pipe underneath with flexible drain snake tool during maintenance, natural kitchen lighting, realistic everyday setting, no logos, no text, no faces.
+Dimensões: 1000x750 (4:3)
+
+[desentupimento-de-vaso-e-esgoto.jpg]
+Prompt: Realistic smartphone photo showing a plumbing technician hands with heavy duty gloves operating a toilet auger drain clearing tool in a tiled bathroom, natural room light, candid angle, no logos, no text, no face visible.
+Dimensões: 1000x750 (4:3)
+
+[limpeza-de-caixa-de-gordura.jpg]
+Prompt: Smartphone candid outdoor photo of an open outdoor ground grease trap access lid during maintenance work in a concrete yard patio, specialized suction hose and protective gloves, natural daylight, candid non-commercial realistic look, no visible faces, no text.
+Dimensões: 1000x750 (4:3)

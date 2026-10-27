@@ -1,0 +1,98 @@
+======================================================================
+PORTAL: DESENTUPIDORA EM RIBEIRÃO PRETO
+======================================================================
+
+DOMÍNIO PRINCIPAL DO SITE:
+DOMINIO="https://desentupidoraribeiraopreto.vercel.app"
+
+Caso utilize um domínio próprio (exemplo: https://desentupidoraribeiraopreto.com.br),
+altere o valor de DOMINIO acima e substitua as referências em:
+- sitemap.xml
+- robots.txt
+- llms.txt
+- tags canonical e og:url das páginas HTML.
+
+----------------------------------------------------------------------
+1. COMO TROCAR O NÚMERO DO WHATSAPP E TELEFONE
+----------------------------------------------------------------------
+Todos os números de atendimento estão centralizados no arquivo `config.js` na raiz do site.
+Para alterar o prestador de serviço ou o número que recebe os contatos:
+
+1. Abra o arquivo `config.js`.
+2. Altere o campo `whatsapp` para o novo número (exemplo: "5516999998888").
+3. Altere o campo `telefone` para o novo número de chamadas (exemplo: "5516999998888").
+4. Mantenha apenas dígitos, sem espaço, traço ou parênteses (formato 55 + DDD + número).
+5. Salve o arquivo. Automaticamente todos os botões de todas as páginas serão atualizados.
+
+----------------------------------------------------------------------
+2. COMO CONFIGURAR E ATUALIZAR A PLANILHA GOOGLE (APPS SCRIPT)
+----------------------------------------------------------------------
+O site já vem com o rastreador ativado para registrar cada clique em botões de WhatsApp
+e Ligue agora em uma planilha do Google Sheets.
+
+Para configurar a sua própria planilha:
+1. Crie uma planilha nova no Google Drive (sheets.google.com).
+2. No menu superior da planilha, clique em: Extensões > Apps Script.
+3. Apague o código padrão que aparece no editor.
+4. Abra o arquivo `apps-script/Code.gs` deste projeto, copie todo o conteúdo e cole no editor do Apps Script.
+5. Clique no botão "Salvar" (ícone de disquete).
+6. No canto superior direito, clique em "Implantar" > "Nova implantação".
+7. Escolha o tipo: "App da Web".
+   - Descrição: Registro de cliques
+   - Executar como: Eu
+   - Quem pode acessar: Qualquer pessoa (mesmo sem login do Google)
+8. Clique em "Implantar" e copie a URL gerada (termina com `/exec`).
+9. Abra o arquivo `config.js` do site e cole essa URL no campo `endpoint`.
+
+Como atualizar o script no futuro:
+- Abra o Apps Script na planilha.
+- Faça o ajuste necessário no código.
+- Clique em: Implantar > Gerenciar implantações.
+- Clique no ícone de lápis (Editar).
+- No campo Versão, selecione "Nova versão".
+- Clique em "Implantar". Pronto! Assim a URL /exec continua rigorosamente a mesma.
+
+Como montar o relatório de leads por site e por botão:
+1. Na planilha, clique no menu superior: Inserir > Tabela dinâmica.
+2. Crie a tabela em uma nova aba.
+3. No painel lateral direito:
+   - Em "Linhas": Adicione "Site" (e depois "Ação").
+   - Em "Valores": Adicione "Ação" e selecione "Contar" (COUNTA).
+Pronto! Você verá exatamente quantos cliques de WhatsApp e de ligação cada site recebeu.
+
+----------------------------------------------------------------------
+3. COMO SUBSTITUIR AS FOTOS POR FOTOS DO PRESTADOR
+----------------------------------------------------------------------
+As fotos atuais são realistas e neutras, sem logos ou elementos comerciais.
+Quando o prestador de serviços parceiro fornecer fotos reais de seus trabalhos e equipamentos:
+1. Tire fotos em boa iluminação, sem poses forçadas.
+2. Salve as novas fotos na pasta `img/` substituindo os arquivos com o mesmo nome:
+   - `img/hero.jpg` (horizontal, recomendável 1600x900)
+   - `img/sobre.jpg` (formato 4:3, recomendável 1000x750)
+   - `img/desentupimento-de-pia-e-ralo.jpg` (formato 4:3)
+   - `img/desentupimento-de-vaso-e-esgoto.jpg` (formato 4:3)
+   - `img/limpeza-de-caixa-de-gordura.jpg` (formato 4:3)
+3. Compacte as imagens para cerca de 150 KB para manter o site rápido.
+
+----------------------------------------------------------------------
+4. CADASTRO NO GOOGLE SEARCH CONSOLE E SITEMAP
+----------------------------------------------------------------------
+Para indexar o portal no Google:
+1. Acesse https://search.google.com/search-console e faça login.
+2. Adicione uma nova propriedade com a URL do site (ex: https://desentupidoraribeiraopreto.vercel.app/).
+3. Confirme a propriedade via tag HTML ou arquivo fornecido pelo Google.
+4. No menu lateral esquerdo, clique em "Sitemaps".
+5. Digite `sitemap.xml` no campo de envio e clique em "Enviar".
+6. O Google começará a rastrear as 13 páginas do portal.
+
+----------------------------------------------------------------------
+5. GOOGLE MEU NEGÓCIO (PERFIL DA EMPRESA NO GOOGLE)
+----------------------------------------------------------------------
+Aviso importante:
+O portal em si é um intermediador e não possui endereço físico público.
+Não crie ficha no Google Meu Negócio com endereço falso, pois o Google suspende o perfil.
+Quando você fechar parceria com um prestador de serviços local que possua um ponto físico real
+em Ribeirão Preto, oriente-o a:
+- Criar a ficha com o endereço comercial verdadeiro dele.
+- Vincular o site do portal como site oficial na ficha.
+- Solicitar avaliações de clientes atendidos para fortalecer a presença local.

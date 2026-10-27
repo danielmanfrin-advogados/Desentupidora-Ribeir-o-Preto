@@ -1,0 +1,6 @@
+{
+  "name": "Desentupidora em Ribeirão Preto",
+  "description": "Portal de atendimento para desentupimento de pia, vaso, ralo, esgoto e caixa de gordura em Ribeirão Preto com contato rápido via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
