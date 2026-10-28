@@ -104,10 +104,7 @@ summary::after{content:"+";float:right;color:var(--cor);font-size:1.4rem;line-he
 details[open] summary::after{content:"\2212"}
 details p{margin:0 0 16px;color:var(--mut)}
 
-/* destaques 24 horas e atendimento super rápido */
-.top-aviso{background:#012d45;color:#fff;font-size:.84rem;padding:8px 0;text-align:center;font-weight:600}
-.top-aviso-inner{display:flex;align-items:center;justify-content:center;gap:12px 20px;flex-wrap:wrap}
-.top-aviso-item{display:inline-flex;align-items:center;gap:6px}
+/* destaques 24 horas e atendimento super rápido no hero */
 .pulse-dot{width:8px;height:8px;border-radius:50%;background:#22c55e;display:inline-block;box-shadow:0 0 0 0 rgba(34,197,94,.7);animation:pulse-green 2s infinite}
 @keyframes pulse-green{
   0%{transform:scale(.95);box-shadow:0 0 0 0 rgba(34,197,94,.7)}
@@ -154,7 +151,6 @@ footer li{margin-bottom:5px}
 
 .barra{position:fixed;left:0;right:0;bottom:0;z-index:50;display:flex;gap:10px;padding:12px max(12px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px));background:#fff;border-top:1px solid var(--lin);box-shadow:0 -4px 14px rgba(0,0,0,.07)}
 .barra .btn{flex:1;padding:14px 10px}
-.barra-aviso{position:absolute;top:-24px;left:50%;transform:translateX(-50%);background:#157a3e;color:#fff;font-size:.72rem;font-weight:700;padding:3px 12px;border-radius:999px;white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,.15);display:flex;align-items:center;gap:5px}
 
 @media(min-width:640px){
   .hero-pontos{grid-template-columns:repeat(3,1fr)}
